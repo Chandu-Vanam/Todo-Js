@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+.entryData{
+    border: 1px solid;
+    padding: 20px 30px 0;
+}
+.entryData input{
+    height: 30px;
+    margin: 10px 0 10px;
+    margin-bottom: 0;
+}
+.desc{
+    width: 100%;
+}
+.entryData button{
+    margin: 10px 0 10px;
+    padding: 5px 20px;
+}
+/* display data styles */
+.displayData{
+    border: 1px solid;
+    padding: 20px 40px;
+}
+.oneData h3{
+    font-size: 1.5rem;
+}
+.oneData > p{
+    margin-block: 10px;
+}
+.btns{
+    position: relative;
+    margin-top: 10px;
+}
+.btns button{
+    margin-right: 20px;
+    padding: 5px 20px;
+}
+#errorMsg{
+    /* margin-bottom: 10px; */
+    height: 10px;
+    font-size: .8rem;
+    color: red;
+}
+.displayData li
+{
+    list-style: none;
+}
+form .btns{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons{
+    position: relative;
+    float: right;
+    padding: 10px 0 10px 10px;
+}
